@@ -23,7 +23,7 @@ public class GreetingController {
 	}
 	
 	@GetMapping("/greetings")
-	public ArrayList<Greeting> greetings(@RequestParam(value = "name", defaultValue = "World") String name) {
+	public ArrayList<Greeting> greetings() {
 
 		return greetings;
 	}
